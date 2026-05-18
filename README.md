@@ -26,8 +26,9 @@ Dự án được tổ chức theo mô hình MVC:
 
 ## Hướng dẫn cài đặt
 1. **Clone dự án:**
-   ```bash
-   git clone [https://github.com/YourUsername/SocialMediaSpringMVC.git](https://github.com/YourUsername/SocialMediaSpringMVC.git)
+```bash
+git clone https://github.com/nhunguy-swe/SocialMediaSpringMVC.git
+```
 
 2. **Cấu hình Database:**
 * Chạy file script SQL (nếu có) hoặc tạo bảng `users` và `posts`.
