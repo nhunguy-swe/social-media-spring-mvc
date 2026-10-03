@@ -8,14 +8,49 @@
     <title>Social Media Lite - News Feed</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        body { background-color: #f0f2f5; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
-        .navbar { background-color: #ffffff; box-shadow: 0 2px 4px rgba(0,0,0,.1); }
-        .post-card { border-radius: 8px; border: none; transition: 0.3s; }
-        .post-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,.15) !important; }
-        .btn-post { border-radius: 20px; padding: 6px 25px; font-weight: bold; }
-        .avatar-circle { width: 40px; height: 40px; background-color: #0d6efd; color: white; display: flex; align-items: center; justify-content: center; border-radius: 50%; font-weight: bold; }
+        body {
+            background-color: #f0f2f5;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .navbar {
+            background-color: #ffffff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+        }
+
+        .post-card {
+            border-radius: 8px;
+            border: none;
+            transition: 0.3s;
+        }
+
+        .post-card:hover {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, .15) !important;
+        }
+
+        .btn-post {
+            border-radius: 20px;
+            padding: 6px 25px;
+            font-weight: bold;
+        }
+
+        .avatar-circle {
+            width: 40px;
+            height: 40px;
+            background-color: #0d6efd;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            font-weight: bold;
+        }
+
         /* Tùy chỉnh thêm cho thanh search trên nav */
-        .search-nav { max-width: 400px; width: 100%; }
+        .search-nav {
+            max-width: 400px;
+            width: 100%;
+        }
     </style>
 </head>
 <body>
